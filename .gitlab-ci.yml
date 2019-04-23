@@ -24,7 +24,7 @@ variables:
   # you can change this to "false" after deploying your DB
   DEPLOY_DB: "false"
   # replace $GITLAB_USER_EMAIL with your D2L one if so desired
-  LE_EMAIL: gary.walsh07@online.camosun.ca
+  LE_EMAIL: garywalsh1997@yahoo.com
   # change to false after deploying cert
   CERT: "false"
 

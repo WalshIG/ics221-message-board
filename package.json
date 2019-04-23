@@ -3,9 +3,13 @@
   "version": "0.0.3",
   "private": true,
   "scripts": {
+    "start": "node ./bin/www",
     "dev": "nodemon -e js,jsx --exec \"node -r dotenv/config ./bin/www\"",
-    "build": "webpack",
-    "start": "node ./bin/www"
+    "build": "webpack"
+  },
+  "engines": {
+    "node": "~10.15.1",
+    "npm": "~6.4.1"
   },
   "dependencies": {
     "bad-words": "^3.0.2",
@@ -33,9 +37,5 @@
     "dotenv-webpack": "^1.7.0",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
-  },
-  "engines": {
-    "node": "~10.15.1",
-    "npm": "~6.4.1"
   }
 }
